@@ -1,6 +1,6 @@
 ﻿namespace teensy_winform
 {
-    partial class Form2
+    partial class Data_Form
     {
         /// <summary>
         /// Required designer variable.
