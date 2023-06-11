@@ -1,6 +1,6 @@
 ﻿namespace teensy_winform
 {
-    partial class Form3
+    partial class FFT_Form
     {
         /// <summary>
         /// Required designer variable.
