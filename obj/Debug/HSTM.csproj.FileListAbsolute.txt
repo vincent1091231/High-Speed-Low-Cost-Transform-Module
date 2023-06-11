@@ -1,0 +1,88 @@
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\teensy_winform.exe.config
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\teensy_winform.exe
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\teensy_winform.pdb
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\Npgsql.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Buffers.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Collections.Immutable.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Memory.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Numerics.Vectors.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Text.Encodings.Web.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Text.Json.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Threading.Channels.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.ValueTuple.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\Npgsql.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Buffers.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Collections.Immutable.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Memory.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Numerics.Vectors.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Text.Encodings.Web.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Text.Json.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Threading.Channels.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\System.ValueTuple.xml
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.csproj.AssemblyReference.cache
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.csproj.SuggestedBindingRedirects.cache
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.Form1.resources
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.Properties.Resources.resources
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.csproj.GenerateResource.cache
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.csproj.CoreCompileInputs.cache
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.csproj.CopyComplete
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.exe
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.pdb
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.Form2.resources
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\MathNet.Numerics.dll
+D:\Program\C#\teensy_winform\teensy_winform\bin\Debug\MathNet.Numerics.xml
+D:\Program\C#\teensy_winform\teensy_winform\obj\Debug\teensy_winform.Form3.resources
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\teensy_winform.exe.config
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\teensy_winform.exe
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\teensy_winform.pdb
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\MathNet.Numerics.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\Npgsql.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Buffers.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Collections.Immutable.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Memory.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Numerics.Vectors.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Text.Encodings.Web.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Text.Json.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Threading.Channels.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.ValueTuple.dll
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\MathNet.Numerics.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\Npgsql.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Buffers.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Collections.Immutable.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Memory.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Numerics.Vectors.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Text.Encodings.Web.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Text.Json.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Threading.Channels.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\bin\Debug\System.ValueTuple.xml
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.csproj.AssemblyReference.cache
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.csproj.SuggestedBindingRedirects.cache
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.Form1.resources
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.Form2.resources
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.Form3.resources
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.Properties.Resources.resources
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.csproj.GenerateResource.cache
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.csproj.CoreCompileInputs.cache
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.csproj.CopyComplete
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.exe
+D:\Program\C#\teensy_winform (備份)\teensy_winform\obj\Debug\teensy_winform.pdb
