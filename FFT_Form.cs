@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +14,7 @@ using MathNet.Numerics.IntegralTransforms;
 
 namespace teensy_winform
 {
-    public partial class Form3 : Form
+    public partial class FFT_Form : Form
     {
         public Form3(int axis, int hz, string scale_view, string host, string user, string dbname, string password, string port, int data_amount)
         {
