@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,7 +15,7 @@ using Npgsql;
 namespace teensy_winform
 {
     delegate void Buttonchange();
-    public partial class Form1 : Form
+    public partial class main_form : Form
     {
 
         delegate void exportCallback();
@@ -148,10 +148,6 @@ namespace teensy_winform
             {
                 if (Y_Teensy_Port.IsOpen && X_Teensy_Port.IsOpen)
                 {
-                    /*ALL_bw.DoWork += new DoWorkEventHandler(export_db);
-                    ALL_bw.WorkerSupportsCancellation = true;
-                    ALL_bw.WorkerReportsProgress = true;
-                    ALL_bw.RunWorkerAsync();*/
                     X_bw.DoWork += new DoWorkEventHandler(X_export_db);
                     X_bw.WorkerSupportsCancellation = true;
                     X_bw.WorkerReportsProgress = true;
@@ -248,105 +244,6 @@ namespace teensy_winform
 
                     while (true)
                     {
-                        /*//////////////////////////// data process 1 /////////////////////////////
-                        string X_data;
-                        string Y_data;
-
-                        string total_data = "";
-                        for(int i = 0; i < 100000; i++)
-                        {
-                            X_data = X_Teensy_Port.ReadTo("\r\n");
-                            Y_data = Y_Teensy_Port.ReadTo("\r\n");
-                            total_data = total_data + X_data + "\t" + Y_data + "\n";
-                        }
-
-                        
-                        
-                        ///////////////////////////// data process 1 ////////////////////////////*/
-
-                        /*//////////////////////////// data process 2 /////////////////////////////
-                        //字串處理沒問題，速度慢
-                        string X_existing = X_Teensy_Port.ReadExisting();
-                        string Y_existing = Y_Teensy_Port.ReadExisting();
-
-                        X_existing = X_remain + X_existing;
-                        X_existing = X_existing.Replace("\r", "");
-                        X_existing = X_existing.Replace("\u0000", "");
-                        while (X_existing.IndexOf("\n\n") != -1)
-                        {
-                            X_existing = X_existing.Replace("\n\n", "\n");
-                        }
-
-                        int X_last = X_existing.LastIndexOf("\n");
-
-                        try
-                        {
-                            X_remain = X_existing.Substring(X_last+1);
-                            X_existing = X_existing.Remove(X_last+1);
-                        }
-                        catch
-                        {
-                            X_remain = "";
-                        }
-
-
-                        Y_existing = Y_remain + Y_existing;
-                        Y_existing = Y_existing.Replace("\r", "");
-                        Y_existing = Y_existing.Replace("\u0000", "");
-                        while (Y_existing.IndexOf("\n\n") != -1)
-                        {
-                            Y_existing = Y_existing.Replace("\n\n", "\n");
-                        }
-
-                        int Y_last = Y_existing.LastIndexOf("\n");
-
-                        try
-                        {
-                            Y_remain = Y_existing.Substring(Y_last+1);
-                            Y_existing = Y_existing.Remove(Y_last+1);
-                        }
-                        catch
-                        {
-                            Y_remain = "";
-                        }
-
-                        X_existing = X_existing.Trim('\n');
-                        Y_existing = Y_existing.Trim('\n');
-
-                        string[] X_data = X_existing.Split('\n');
-                        string[] Y_data = Y_existing.Split('\n');
-                        int X_data_amount = X_data.Length;
-                        int Y_data_amount = Y_data.Length;
-                        string total_data = "";
-
-                        if (X_data_amount >= Y_data_amount)
-                        {
-                            for (int i = 0; i < Y_data_amount; i++)
-                            {
-                                total_data = total_data + X_data[i] + "\t" + Y_data[i] + "\n"  ;
-                            }
-                            for (int j = Y_data_amount; j < X_data_amount; j++)
-                            {
-                                X_remain = X_remain + "\n" + X_data[j]  ;
-                            }
-                        }
-                        else if (X_data_amount < Y_data_amount)
-                        {
-                            for (int i = 0; i < X_data_amount; i++)
-                            {
-                                total_data = total_data + X_data[i] + "\t" + Y_data[i] + "\n" ;
-                            }
-                            for (int j = X_data_amount; j < Y_data_amount; j++)
-                            {
-                                Y_remain = Y_remain+ "\n" +Y_data[j] ;
-                            }
-                        }
-
-
-                        ///////////////////////////// data process 2 ////////////////////////////*/
-
-                        ///////////////////////////// data process 3 /////////////////////////////
-                        //祖恩法，或許較快
                         string X_existing = X_Teensy_Port.ReadExisting();
                         string Y_existing = Y_Teensy_Port.ReadExisting();
 
@@ -458,10 +355,6 @@ namespace teensy_winform
                             }
                         }
                         total_data = total_data.Trim('\n');
-
-
-                        ///////////////////////////// data process 3 ////////////////////////////*/
-
 
                         using (var writer = conn.BeginTextImport("COPY lk_g3001 (head_a, head_b) FROM STDIN"))
                         {
@@ -844,11 +737,6 @@ namespace teensy_winform
                     Y_bw.CancelAsync();
                 }
                 catch { }
-                /*try
-                {
-                    ALL_bw.CancelAsync();
-                }
-                catch { }*/
                 data_collect.Enabled = true;
                 stop_collect.Enabled = false;
                 if(timer1.Enabled)
@@ -888,10 +776,10 @@ namespace teensy_winform
             }
             else if(displacement_data.Checked)
             {
-                Form2 form2 = new Form2(2, axis, view_scale.Text, host.Text, user.Text, dbname.Text, password.Text, port.Text, Int32.Parse(data_amount.Text));
+                Data_Form data_form = new Data_Form(2, axis, view_scale.Text, host.Text, user.Text, dbname.Text, password.Text, port.Text, Int32.Parse(data_amount.Text));
                 try
                 {
-                    form2.Show();
+                    data_form.Show();
                 }
                 catch { }
             }
@@ -922,10 +810,10 @@ namespace teensy_winform
                 {
                     hz_choose = 6;
                 }
-                Form3 form3 = new Form3(axis, hz_choose, view_scale.Text, host.Text, user.Text, dbname.Text, password.Text, port.Text, Int32.Parse(data_amount.Text));
+                FFT_Form fft_form = new FFT_Form(axis, hz_choose, view_scale.Text, host.Text, user.Text, dbname.Text, password.Text, port.Text, Int32.Parse(data_amount.Text));
                 try
                 {
-                    form3.Show();
+                    fft_form.Show();
                 }
                 catch { }
             }
