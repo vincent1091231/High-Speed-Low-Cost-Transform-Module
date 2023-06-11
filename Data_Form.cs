@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +14,7 @@ using MathNet.Numerics.IntegralTransforms;
 
 namespace teensy_winform
 {
-    public partial class Form2 : Form
+    public partial class Data_Form : Form
     {
         /******************************************************************
         data_type --> true -- adc data
@@ -23,7 +23,7 @@ namespace teensy_winform
         host, user, dbname, password, port --> postgresql setting
         data_amount --> max data amount
         *******************************************************************/
-        public Form2(int data_type, int axis, string scale_view,string host,string user, string dbname, string password, string port, int data_amount)
+        public Data_Form(int data_type, int axis, string scale_view,string host,string user, string dbname, string password, string port, int data_amount)
         {
             InitializeComponent();
 
