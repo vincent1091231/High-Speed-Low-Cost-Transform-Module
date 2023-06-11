@@ -30,10 +30,10 @@ volatile uint32_t adcidx;
 volatile bool doneflag = false;
 
 void setup() {
-  // put your setup code here, to run once:
+  /
   while (!Serial) {}
   Serial.begin(67200);
-  //Serial.println("\nOne MSample ADC test");
+  
   pinMode(admarkpin, OUTPUT);
   pinMode(pin, INPUT);
   adc->adc0->setAveraging(1); // set number of averages
@@ -46,25 +46,6 @@ void setup() {
 
 
 void loop() {
-  
-  // put your main code here, to run repeatedly:
-  /*long begt, runt, total;
-  total = 0;  // clear before sampling
-  begt = micros();
-  for(int i=0; i< n; i++) {
-     //total += analogRead(pin);
-     Serial.println(analogRead(pin));
-  }
-  runt = micros() - begt;  // elapsed time
-  
-  //Serial.println(String("Average=") + total/n);
-  Serial.print(String("Time per sample: ")+runt/1.0/n +"us");
-  Serial.println(String(", Frequency: ")+1000000.0/runt*n +" Hz");*/
-  /*for( int i=0; i<10000; i++)
-  {
-    Serial.println(analogRead(pin));
-  }
-  Serial.println("5487");*/
 
   while(sample_read == -1)
   {
