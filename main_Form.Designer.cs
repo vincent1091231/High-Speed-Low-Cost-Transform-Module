@@ -1,6 +1,6 @@
 ﻿namespace teensy_winform
 {
-    partial class Form1
+    partial class main_form
     {
         /// <summary>
         /// 設計工具所需的變數。
